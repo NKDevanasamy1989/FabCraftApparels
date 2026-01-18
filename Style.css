@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    #navbar
+    {
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        padding: .5rem 5rem;
+        font-size: auto;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+        background: linear-gradient(to left,  #f56411, #F56411);
+    }
+    .navbar .navbar-brand
+    {
+        font-size: 25px;
+        font-weight: 800;
+        color: black !important;
+    }
+    .navbar-nav {
+        display: flex;
+    }
+    .nav-item {
+        margin-right: 10px; /* Adjust the spacing as needed */
+    }
+    .navbar  .fa-facebook-f{
+
+         border: 1px solid rgb(15, 15, 14);
+         display:flex;
+         border-radius: 20px;
+         justify-content: center;
+         align-items:center;
+         height: 40px;
+         width: 40px;
+         margin-left: 0px;
+    }
+
+    .navbar  .fa-linkedin-in{
+
+         border: 1px solid rgb(15, 15, 14);
+         display:flex;
+         border-radius: 20px;
+         justify-content: center;
+         align-items:center;
+         height: 40px;
+         width: 40px;
+         margin-left: 0px;
+    }
+    .navbar  .fa-instagram{
+
+         border: 1px solid rgb(15, 15, 14);
+         display:flex;
+         border-radius: 20px;
+         justify-content: center;
+         align-items:center;
+         height: 40px;
+         width: 40px;
+         margin-left: 0px;
+    }
+
+    .navbar  .fa-envelope{
+
+         border: 1px solid rgb(15, 15, 14);
+         display:flex;
+         border-radius: 20px;
+         justify-content: center;
+         align-items:center;
+         height: 40px;
+         width: 40px;
+         margin-left: 0px;
+    }
+     #navbarSupportedContent a{
+        color: black;
+        border-bottom: 2px solid transparent;
+    }
+
+     
+    
+    
+    section{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    /******Home******/
+    #Home{
+        background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0.4)),url(Homepage.jpg);
+        background-size: cover;
+        background-position: center;
+        flex-direction: column;
+    }
+    #Home h1{
+        font-size: 100px;
+        color: white;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px  0px #0f0e0ecc,
+                     0px 2px  0px #0f0e0ecc,
+                     0px 3px  0px #0f0e0ecc,
+                     0px 4px  0px #0f0e0ecc,
+                     0px 5px  0px #0f0e0ecc,
+                     0px 6px  0px #0f0e0ecc,
+                     0px 7px  0px #0f0e0ecc;                     ;
+    }
+#Home p{
+    font-size: 30px;
+    color:white;
+}
+#Home .input-group{
+    width: 40%;
+    height: 45px;
+}
+
+/*
+.signin{
+    background: #ee5a04 !important;
+    color: #fff !important;
+    box-shadow: 2px 4px 5px(rgba(0,0,0,.3));
+}
+    */
+ 
+
+/********About*******/
+#About{
+    
+    background: linear-gradient(to right,#2bdfff,#2bdfff 100%);
+}
+#About h1{
+    font-weight: 800;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#About img{
+    margin-top: 250px;
+}
+
+#About p{
+    color:rgb(7, 7, 7);
+    
+}
+/********Customized Sourcing Solutions******/
+
+#Customizedsourcingsolutions{
+background: linear-gradient(to right,#d39898,#d39898,#d39898 100%);
+
+}
+
+#Customizedsourcingsolutions h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#Customizedsourcingsolutions img{
+    margin-top: 100px;
+}
+
+#Customizedsourcingsolutions p{
+    color:rgb(7, 7, 7);
+    
+}
+
+/********Factory Evaluation******/
+
+#FactoryEvaluation {
+background: linear-gradient(to right,#c7c96a,#c7c96a,#c7c96a 100%);
+
+}
+
+#FactoryEvaluation h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#FactoryEvaluation  img{
+    margin-top: 80px;
+}
+
+
+#FactoryEvaluation p{
+    color:rgb(7, 7, 7);
+    
+}
+
+/********Product Development******/
+
+#Productdevelopment {
+background: linear-gradient(to right,#9ae484,#9ae484,#9ae484 100%);
+
+}
+
+#Productdevelopment h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#Productdevelopment  img{
+    margin-top: 100px;
+}
+
+
+#Productdevelopment p{
+    color:rgb(7, 7, 7);
+    
+}
+
+/********Merchandise Tracking******/
+
+#Merchandisetracking {
+background: linear-gradient(to right,#36c998,#36c998,#36c998 100%);
+
+}
+
+#Merchandisetracking h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#Merchandisetracking img{
+    margin-top: 0px;
+}
+
+
+#Merchandisetracking p{
+    color:rgb(7, 7, 7);
+    
+}
+
+
+/********Inspection Services******/
+
+#Inspectionservices {
+background: linear-gradient(to right,#9a80e2,#9a80e2,#9a80e2 100%);
+
+}
+
+#Inspectionservices h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#Inspectionservices img{
+    margin-top: 80px;
+}
+
+
+#Inspectionservices p{
+    color:rgb(7, 7, 7);
+    
+}
+
+
+/********Laboratory Tests******/
+
+#LaboratoryTests {
+background: linear-gradient(to right,#e58484,#e58484,#e58484 100%);
+
+}
+
+#LaboratoryTests h1{
+    font-weight: 300;
+    font-size: 50px;
+     color: #111010;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#LaboratoryTests img{
+    margin-top: 0px;
+}
+
+
+#LaboratoryTests p{
+    color:rgb(7, 7, 7);
+    
+}
+
+
+/******Products*****/
+#Products{
+    background: linear-gradient(to right,#5db665,#5db665,#5db665 100%);
+}
+#Products h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+#Products img{
+    width: 200px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 300px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 20px white;
+                border-radius: 20px !important;
+                overflow: hidden;
+                justify-content: center;
+                align-items: center;
+    margin: 20px 6px;
+    transition: .2s;
+}
+.card:hover{
+     box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                 inset -4px -4px 10px white;
+                 transition: .2s;
+}
+/*********Contact*********/
+
+/* General Styles */
+#Contact {
+    padding: 40px 20px;
+    background: linear-gradient(to right,#1ed627,#df9713,#e58484 100%);
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container Styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Row Styling */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Column Styles */
+  .col-lg-6,
+  .col-md-6,
+  .col-12 {
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  /* Image Styling */
+  #Contact img {
+    width: auto;
+    height: auto;
+    margin-left: -100px;
+    margin-top: -100px;
+    }
+
+  #Contact img.img-fluid {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: -100px;
+    margin-top: 150px;
+    
+  }
+  
+  /* Heading Styling */
+  #Contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: -100px ;
+    color: #343a40;
+    border-bottom: 2px solid #343a40; /* Adjust color and thickness */
+    display: inline-block; /* Ensures underline fits the text width */
+    text-align: left;
+  }
+
+  
+  /* Email Section Styling */
+
+  .Emails {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 460px; /* Adjust the width as needed */
+    margin: 0;
+    margin: 20px 0; 
+  }
+  
+  .Emails p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #495057;
+  }
+  
+  .Emails a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .Emails a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Map Container Styling */
+  .map-container iframe{
+    position: relative;
+    width: 460px;
+    height: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    align-content: right;  
+    margin-right: -600px;
+    margin-bottom: -50px;  
+    margin-top: auto;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    #Contact h1 {
+      font-size: 2rem;
+    }
+  
+    .map-container iframe {
+      height: 300px;
+    }
+  
+    .row {
+      flex-direction: column;
+    }
+  
+    .col-lg-6,
+    .col-md-6,
+    .col-12 {
+      flex: 0 0 100%;
+    }
+  }
+  /* Style for the form container */
+  #Subscription-form{
+    background: linear-gradient(to right,#36c998,#36c998,#36c998 100%);
+  }
+
+  #subscription-form iframe {
+    display: flex;
+    flex-direction: column;
+    background-color: #d46262; /* Light grey background */
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 670px;
+    height: 1200px;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom:400px;
+  }
+
+   /* Heading Styling */
+  #Subscription-form h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: -700px ;
+    color: #343a40;
+    border-bottom: 2px solid #343a40; /* Adjust color and thickness */
+    display: inline-block; /* Ensures underline fits the text width */
+    text-align: left;
+  }
+ 
+
+  /* Image Styling */
+  #Subscription-form img {
+    width: auto;
+    height: auto;
+    margin-left: -100px;
+    margin-top: -150px;
+    }
+
+  #Subscription-form img.img-fluid {
+    max-width: 650px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 50px;
+    margin-top: 250px;
+    
+  }
+footer
+{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    color: rgb(22, 21, 21);
+    padding: 3px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: linear-gradient(to left, #f56411, #f56411);
+}
